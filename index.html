@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  <title>tebak angka</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <div>
+    <p>ini adalah game tebak angka, anda mempunyai 3 kali kesempatan menebak</p>
+    <p>kolom akan berwarna merah jika salah</p>
+    <p>kolom akan berwrna hijau jika benar</p>
+    <h1 id="menang"></h1>
+  </div>
+  <div>
+    <button class="button" onclick="a()" id="button1">1</button>
+    <button class="button" onclick="b()" id="button2">2</button>
+    <button class="button" onclick="c()" id="button3">3</button>
+    <br style="clear:both">
+    <button class="button" onclick="d()" id="button4">4</button>
+    <button class="button" onclick="e()" id="button5">5</button>
+    <button class="button" onclick="f()" id="button6">6</button>
+    <br style="clear:both">
+    <button class="button" onclick="g()" id="button7">7</button>
+    <button class="button" onclick="h()" id="button8">8</button>
+    <button class="button" onclick="i()" id="button9">9</button>
+  </div>
+  <div style="padding-top:50px;">
+    <input type="button" value="Refresh" onClick="window.location.reload()" />
+    <button onclick="answer('jwbBenar')">Buka Jawaban</button>
+    <h4 id="jwbBenar"></h4>
+  </div>
+  <div>
+    <h3 id="jml_klik"></h3>
+  </div>
+</body>
+<script type="text/javascript" src="index.js"></script>
+
+</html>
